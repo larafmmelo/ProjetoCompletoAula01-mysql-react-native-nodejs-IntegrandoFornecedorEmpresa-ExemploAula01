@@ -1,0 +1,24 @@
+{
+  "name": "fornecedor-node-mysql-react-native",
+  "version": "1.0.0",
+  "description": "Backend Node.js integrado ao MySQL para gerenciamento de fornecedores",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "MySQL",
+    "React Native",
+    "Fornecedor"
+  ],
+  "author": "Lara Freitas Mello",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.23.3"
+  }
+}
